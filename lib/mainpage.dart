@@ -64,7 +64,7 @@ double showtext= 0.0 ;
                   duration: Duration(seconds: 1),
                   curve: Curves.bounceIn,
                   child: Text('Welcome to Flutter Mumbai Community',
-                  style:TextStyle(letterSpacing: 2.0,fontSize:50.0,
+                  style:TextStyle(letterSpacing: 2.0,fontSize:MediaQuery.of(context).size.width/30.0,
                      shadows:[
               Shadow(color: Colors.blue,blurRadius: 20.0,offset: Offset(2, -2))
             ] ),
